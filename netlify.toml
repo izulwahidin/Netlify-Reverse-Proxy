@@ -1,3 +1,5 @@
 [[redirects]]
   from = "/*"
   to = "https://dev-wahidin.pantheonsite.io/"
+  status = 200
+  force = true
