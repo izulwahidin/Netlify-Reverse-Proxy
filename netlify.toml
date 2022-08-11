@@ -11,8 +11,9 @@
   to = "https://dev-wahidin.pantheonsite.io/:splat"
   status = 200
   force = true
+  headers = { X-From = "redirects" }
 
 [[headers]]
   for = "/*"
   [headers.values]
-    X-From = "Wahidin"
+    X-From = "headers"
