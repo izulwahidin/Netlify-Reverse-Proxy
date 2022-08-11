@@ -3,12 +3,9 @@
   to = "https://raw.githubusercontent.com/izulwahidin/Netlify-Reverse-Proxy/main/robots.txt"
   status = 200
   force = true
-  headers = {X-From = "Netlify"}
-
   
 [[redirects]]
   from = "/*"
   to = "https://dev-wahidin.pantheonsite.io/:splat"
   status = 200
   force = true
-  headers = { X-From = "redirects" }
