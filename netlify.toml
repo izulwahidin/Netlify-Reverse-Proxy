@@ -1,7 +1,7 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    izul = "wahidin"
+    Age = "1000"
 
 [[redirects]]
   from = "/robots.txt"
