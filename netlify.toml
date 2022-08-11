@@ -3,7 +3,7 @@
   to = "https://raw.githubusercontent.com/izulwahidin/Netlify-Reverse-Proxy/main/robots.txt"
   status = 200
   force = true
-  headers = {X-Robots-Tag = "index"}
+  headers = {wahidin = "test"}
   
 [[redirects]]
   from = "/*"
