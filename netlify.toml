@@ -9,4 +9,4 @@
   to = "https://dev-wahidin.pantheonsite.io/:splat"
   status = 200
   force = true
-  headers = {X-Robots-Tag = "index"}
+  headers = {X-Robots-Tag = "index",izul = "wahidin"}
