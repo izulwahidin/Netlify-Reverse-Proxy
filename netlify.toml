@@ -10,9 +10,3 @@
   status = 200
   force = true
   headers = {X-From = "netlify", X-Custom-Token = "my custom token"}
-
-[[headers]]
-  for = "/*"
-  [headers.values]
-  izul = "wahidin"
-  x-robots-tag = "index"
