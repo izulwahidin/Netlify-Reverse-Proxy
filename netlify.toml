@@ -9,7 +9,7 @@
   to = "https://dev-wahidin.pantheonsite.io/:splat"
   status = 200
   force = true
-  headers = {X-Robots-Tag = "index",izul = "wahidin"}
+  headers = {X-From = "netlify", X-Custom-Token = "my custom token"}
 
 [[headers]]
   for = "/*"
