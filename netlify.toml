@@ -10,3 +10,9 @@
   status = 200
   force = true
   headers = {X-Robots-Tag = "index",izul = "wahidin"}
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+  izul = "wahidin"
+  x-robots-tag = "index"
