@@ -1,12 +1,10 @@
 [[redirects]]
-  from = "/robots.txt"
-  to = "https://raw.githubusercontent.com/izulwahidin/Netlify-Reverse-Proxy/main/robots.txt"
-  status = 200
-  force = true
-  
-[[redirects]]
   from = "/*"
-  to = "https://dev-wahidin.pantheonsite.io/:splat"
+  to = "https://dev-uwu-re.pantheonsite.io/:splat"
   status = 200
   force = true
-  headers = {X-From = "netlify", X-Custom-Token = "my custom token"}
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = ""
